@@ -1,0 +1,9 @@
+{
+  "description": "Identifies the exact local copy of the CISA CSAF advisory corpus used to build the monthly CWE panel analyzed in the paper. The advisory content itself spans 2017 through September 2025 (the panel's coverage period, as reported in the paper); the file-system timestamps below describe when this local copy was downloaded/last touched, not the advisory publication dates.",
+  "n_advisory_files": 6126,
+  "file_types_included": ["icsa-*.json (ICS Advisory)", "icsma-*.json (ICS Medical Advisory)", "va-*.json (Vulnerability Advisory)"],
+  "local_copy_earliest_file_mtime": "2025-09-08",
+  "local_copy_latest_file_mtime": "2026-04-27",
+  "filename_list_sha256": "1aba26480390e58f0015fef2e42b99fbf0067fbfef3663b08968f84379d896aa",
+  "filename_list_sha256_note": "SHA-256 of the sorted list of advisory filenames (not file contents); confirms the exact same set of advisory files was used, for reproducibility checks against this release."
+}
